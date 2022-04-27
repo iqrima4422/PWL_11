@@ -9,7 +9,7 @@ class Todo extends Model
 {
     use HasFactory;
 
-    protected $table = 'todolist';
+    protected $table = 'todos';
 
     protected $fillable = [
         'user_id',
